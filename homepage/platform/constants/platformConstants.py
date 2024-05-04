@@ -1,0 +1,8 @@
+LOGIN_URL = "https://tobeto.com/giris"
+userEmail = "email"
+userPassword = "password"
+LOGIN_XPATH = "//*[@id='__next']/div/main/section/div/div/div[1]/div/form/button"
+LESSONS = "lessons-tab"
+NOTIFICATION = "notification-tab"
+SURVEY = "mySurvey-tab"
+APPLY = "apply-tab"
