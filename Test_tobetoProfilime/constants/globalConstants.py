@@ -1,0 +1,11 @@
+BASE_URL="https://tobeto.com/giris"
+sucsesfull_message="• Giriş başarılı."
+email_input_Xpath="/html//div[@id='__next']/div[@class='bg-front-dark bg-front-width']/main/section//form[@action='#']/input[@name='email']"
+password_input_Xpath="/html//div[@id='__next']/div[@class='bg-front-dark bg-front-width']/main/section//form[@action='#']/input[@name='password']"
+login_form_Xpath="/html//div[@id='__next']/div[@class='bg-front-dark bg-front-width']/main/section//form[@action='#']/button[.='Giriş Yap']"
+sucsesfull_message_Xpath="//div[@id='__next']//div[@role='alert']/div[@class='toast-body']"
+tab_profile_button_Xpath="//div[@id='__next']//nav//ul[@class='d-none d-xxl-flex navbar-nav']/li[2]/a[@href='#']"
+episode1_Xpath="/html//div[@id='__next']/div[@class='back-white']/main/div[@class='container']/div[@class='row']/div[1]//div[@class='cv-info cv-padding']/div[4]/div[@class='info-text']/span[@class='text']"
+episode2_Xpath="/html//div[@id='__next']/div[@class='back-white']/main/div[@class='container']/div[@class='row']/div[2]/div[@class='row']/div[3]/div[@class='cv-box cv-padding']/div[@class='cv-box-header']/div[@class='d-flex justify-content-between']"
+edit_profile_button_Xpath="//div[@id='__next']/div[@class='back-white']/main/div[@class='container']//span[@class='cv-edit-icon']"
+
