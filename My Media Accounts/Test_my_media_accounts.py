@@ -27,7 +27,7 @@ class Test_My_Media_Accounts:
         passwordInput.send_keys(password)
         loginButton = WebDriverWait(self.driver,5).until(ec.visibility_of_element_located((By.XPATH, login_button_xpath)))
         loginButton.click()
-        sleep(1)
+        sleep()
         loginMessage = WebDriverWait(self.driver,5).until(ec.visibility_of_element_located((By.XPATH, loginMessage_xpath)))
         assert loginMessage.text == "• Giriş başarılı."
 
@@ -87,7 +87,7 @@ class Test_My_Media_Accounts:
         sleep(1)
         platformChooseButton = WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located((By.XPATH, platformChooseButton_xpath)))
         platformChooseButton.click()
-        sleep(1)
+        sleep(2)
         platformUrlAdd = WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located((By.XPATH, platformUrlAdd_xpath)))
         platformUrlAdd.send_keys(instagramUrl)
         sleep(1)

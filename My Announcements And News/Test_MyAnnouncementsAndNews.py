@@ -36,7 +36,7 @@ class Test_MyAnnouncement_And_News:
         announcementAndNewsButton= WebDriverWait(self.driver,5).until(ec.visibility_of_element_located((By.XPATH, announcementAndNewsButton_xpath)))
         announcementAndNewsButton.click()
         self.driver.execute_script("window.scrollBy(0, 200);")
-        sleep(2)
+        sleep(3)
         showMoreButton= WebDriverWait(self.driver,5).until(ec.visibility_of_element_located((By.XPATH, showMoreButton_xpath)))
         sleep(2)
         showMoreButton.click()
