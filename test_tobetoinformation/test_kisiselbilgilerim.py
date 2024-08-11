@@ -25,14 +25,7 @@ class Test_Register():
    
   def waitForElementVisible(self,locator,timeout=5):
     return WebDriverWait(self.driver,timeout).until(EC.visibility_of_element_located(locator))
-  
-  def setup_method(self):
-   self.driver = webdriver.Chrome()
-   self.driver.maximize_window()
-   self.driver.get(BASE_URL)
-   
-  def teardown_method(self):
-   self.driver.quit()
+
    
   def waitForElementVisible(self,locator,timeout=10):
      return WebDriverWait(self.driver,timeout).until(EC.visibility_of_element_located(locator))
